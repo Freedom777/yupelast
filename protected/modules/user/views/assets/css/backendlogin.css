@@ -1,0 +1,36 @@
+body {
+    background: #a2a2a2;
+}
+
+.wrapper {
+
+}
+
+.wrapper .login-form {
+    width: 350px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 0;
+}
+
+form .form-actions {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+form .help-block {
+    display: none;
+}
+
+body.admin-panel #footer-guard {
+    height: 40px;
+}
+
+body.admin-panel > footer {
+    position: fixed;
+    height: 43px;
+    bottom: 0;
+    width: 100%;
+}
