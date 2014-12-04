@@ -1,0 +1,1247 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:31:"5.4.31-1+deb.sury.org~precise+1";s:10:"yiiVersion";s:6:"1.1.15";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.15";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:13:"Europe/Moscow";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:31:"5.4.31-1+deb.sury.org~precise+1";s:6:"xdebug";b:1;s:3:"apc";b:1;s:8:"memcache";b:1;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:8:{s:4:"Host";s:4:"last";s:10:"User-Agent";s:74:"Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0";s:6:"Accept";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:15:"Accept-Language";s:14:"en-US,en;q=0.5";s:15:"Accept-Encoding";s:13:"gzip, deflate";s:7:"Referer";s:25:"http://last/backend/login";s:6:"Cookie";s:217:"PHPSESSID=32usc0ktb0oeeo40p6dut9bjj4; YUPE_TOKEN=30fe751b486d20c12161ab0455508670617e475cs%3A40%3A%223023dfa8de14621ccdad4df0a962b274a16bdce2%22%3B; language=72d8009f9d01965c2355e9d9103e4c195c0b1b14s%3A2%3A%22ru%22%3B";s:10:"Connection";s:10:"keep-alive";}s:15:"responseHeaders";a:6:{s:12:"X-Powered-By";s:35:"PHP/5.4.31-1+deb.sury.org~precise+1";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";a:2:{i:0;s:63:"language=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/";i:1;s:125:"language=72d8009f9d01965c2355e9d9103e4c195c0b1b14s%3A2%3A%22ru%22%3B; expires=Thu, 03-Dec-2015 15:40:35 GMT; path=/; httponly";}s:12:"Content-type";s:9:"text/html";}s:5:"route";s:21:"yupe/backend/settings";s:6:"action";s:35:"BackendController::actionSettings()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:30:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:4:"last";s:15:"HTTP_USER_AGENT";s:74:"Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:25:"http://last/backend/login";s:11:"HTTP_COOKIE";s:217:"PHPSESSID=32usc0ktb0oeeo40p6dut9bjj4; YUPE_TOKEN=30fe751b486d20c12161ab0455508670617e475cs%3A40%3A%223023dfa8de14621ccdad4df0a962b274a16bdce2%22%3B; language=72d8009f9d01965c2355e9d9103e4c195c0b1b14s%3A2%3A%22ru%22%3B";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:22:"Apache/2.2.22 (Ubuntu)";s:11:"SERVER_NAME";s:4:"last";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:29:"/home/admin/Sites/last/public";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:39:"/home/admin/Sites/last/public/index.php";s:11:"REMOTE_PORT";s:5:"34803";s:12:"REDIRECT_URL";s:17:"/backend/settings";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:17:"/backend/settings";s:11:"SCRIPT_NAME";s:10:"/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1417621235.1700001;s:12:"REQUEST_TIME";i:1417621235;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:3:{s:9:"PHPSESSID";s:26:"32usc0ktb0oeeo40p6dut9bjj4";s:10:"YUPE_TOKEN";s:88:"30fe751b486d20c12161ab0455508670617e475cs:40:"3023dfa8de14621ccdad4df0a962b274a16bdce2";";s:8:"language";s:49:"72d8009f9d01965c2355e9d9103e4c195c0b1b14s:2:"ru";";}s:5:"FILES";a:0:{}s:7:"SESSION";a:12:{s:40:"8817a1ffd8d5209887f9a8471be6bcfalanguage";s:2:"ru";s:43:"8817a1ffd8d5209887f9a8471be6bcfa__returnUrl";s:17:"/backend/settings";s:34:"8817a1ffd8d5209887f9a8471be6bcfaid";s:1:"1";s:44:"8817a1ffd8d5209887f9a8471be6bcfaaccess_level";s:1:"1";s:41:"8817a1ffd8d5209887f9a8471be6bcfanick_name";s:5:"admin";s:43:"8817a1ffd8d5209887f9a8471be6bcfamodSettings";a:0:{}s:36:"8817a1ffd8d5209887f9a8471be6bcfa__id";s:1:"1";s:38:"8817a1ffd8d5209887f9a8471be6bcfa__name";s:5:"admin";s:40:"8817a1ffd8d5209887f9a8471be6bcfa__states";a:0:{}s:49:"8817a1ffd8d5209887f9a8471be6bcfaadm_check_attempt";i:8;s:45:"8817a1ffd8d5209887f9a8471be6bcfabadLoginCount";i:0;s:41:"8817a1ffd8d5209887f9a8471be6bcfa__timeout";i:1417683635;}}s:3:"log";a:1:{s:8:"messages";a:391:{i:0;a:4:{i:0;s:187:"Loading "urlManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.176317;}i:1;a:4:{i:0;s:309:"Loading "yupe" module
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.1766241;}i:2;a:4:{i:0;s:265:"Loading "db" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.177052;}i:3;a:4:{i:0;s:252:"Opening DB connection
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:23:"system.db.CDbConnection";i:3;d:1417621235.1772339;}i:4;a:4:{i:0;s:474:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1786821;}i:5;a:4:{i:0;s:268:"Loading "cache" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1787651;}i:6;a:4:{i:0;s:553:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1793571;}i:7;a:4:{i:0;s:258:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1794231;}i:8;a:4:{i:0;s:282:"Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (83)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1802609;}i:9;a:4:{i:0;s:282:"Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1809361;}i:10;a:4:{i:0;s:85:"Loading "debug" application component
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.18119;}i:11;a:4:{i:0;s:264:"Loading "request" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1819651;}i:12;a:4:{i:0;s:242:"Loading "assetManager" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (168)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1825099;}i:13;a:4:{i:0;s:242:"Loading "clientScript" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (170)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.182734;}i:14;a:4:{i:0;s:83:"Loading "log" application component
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1833651;}i:15;a:4:{i:0;s:339:"Loading "securityManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.183928;}i:16;a:4:{i:0;s:338:"Loading "statePersister" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1841199;}i:17;a:4:{i:0;s:383:"Serving "Yii.CStatePersister./home/admin/Sites/last/protected/runtime/state.bin" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1844821;}i:18;a:4:{i:0;s:280:"Loading "user" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.184922;}i:19;a:4:{i:0;s:283:"Loading "session" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1851721;}i:20;a:4:{i:0;s:185:"Loading "bootstrap" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (72)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1867189;}i:21;a:4:{i:0;s:184:"Loading "messages" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1875639;}i:22;a:4:{i:0;s:188:"Loading "errorHandler" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (78)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1879151;}i:23;a:4:{i:0;s:188:"Loading "eventManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (81)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.188046;}i:24;a:4:{i:0;s:103:"Running filter yupe\filters\YBackAccessControl.filter()
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:31:"system.web.filters.CFilterChain";i:3;d:1417621235.1889069;}i:25;a:4:{i:0;s:185:"Loading "migrator" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (104)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1892469;}i:26;a:4:{i:0;s:319:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:yupe_migrations" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (42)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (104)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1899011;}i:27;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1903591;}i:28;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.190443;}i:29;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.190516;}i:30;a:4:{i:0;s:181:"Loading "moduleManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.1908059;}i:31;a:4:{i:0;s:244:"Loading "category" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.1914451;}i:32;a:4:{i:0;s:486:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/category/CategoryModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1917591;}i:33;a:4:{i:0;s:565:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"category";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/category/CategoryModule.php (130)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1919999;}i:34;a:4:{i:0;s:266:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/category/CategoryModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.192055;}i:35;a:4:{i:0;s:248:"Loading "contentblock" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.192301;}i:36;a:4:{i:0;s:497:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/contentblock/ContentBlockModule.php (66)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.192585;}i:37;a:4:{i:0;s:577:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:12:"contentblock";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/contentblock/ContentBlockModule.php (66)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1928091;}i:38;a:4:{i:0;s:273:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/contentblock/ContentBlockModule.php (66)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1928639;}i:39;a:4:{i:0;s:243:"Loading "gallery" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.193073;}i:40;a:4:{i:0;s:482:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/gallery/GalleryModule.php (81)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1933451;}i:41;a:4:{i:0;s:561:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"gallery";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/gallery/GalleryModule.php (81)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.193557;}i:42;a:4:{i:0;s:263:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/gallery/GalleryModule.php (81)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1936109;}i:43;a:4:{i:0;s:241:"Loading "image" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.1938181;}i:44;a:4:{i:0;s:477:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/image/ImageModule.php (201)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.194097;}i:45;a:4:{i:0;s:556:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"image";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/image/ImageModule.php (201)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.194309;}i:46;a:4:{i:0;s:260:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/image/ImageModule.php (201)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.194365;}i:47;a:4:{i:0;s:240:"Loading "mail" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.194587;}i:48;a:4:{i:0;s:474:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/mail/MailModule.php (170)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1949301;}i:49;a:4:{i:0;s:553:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"mail";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/mail/MailModule.php (170)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.195173;}i:50;a:4:{i:0;s:258:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/mail/MailModule.php (170)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1952291;}i:51;a:4:{i:0;s:240:"Loading "menu" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.1954;}i:52;a:4:{i:0;s:474:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/menu/MenuModule.php (101)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1956661;}i:53;a:4:{i:0;s:553:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"menu";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/menu/MenuModule.php (101)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1958649;}i:54;a:4:{i:0;s:258:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/menu/MenuModule.php (101)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.19592;}i:55;a:4:{i:0;s:240:"Loading "page" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.196136;}i:56;a:4:{i:0;s:473:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/page/PageModule.php (90)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.196954;}i:57;a:4:{i:0;s:552:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"page";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/page/PageModule.php (90)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.19783;}i:58;a:4:{i:0;s:257:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/page/PageModule.php (90)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.1979041;}i:59;a:4:{i:0;s:241:"Loading "queue" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.1985381;}i:60;a:4:{i:0;s:476:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/queue/QueueModule.php (78)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.199322;}i:61;a:4:{i:0;s:555:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"queue";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/queue/QueueModule.php (78)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.1997161;}i:62;a:4:{i:0;s:259:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/queue/QueueModule.php (78)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.199816;}i:63;a:4:{i:0;s:242:"Loading "social" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.2003081;}i:64;a:4:{i:0;s:479:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/social/SocialModule.php (86)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.2012711;}i:65;a:4:{i:0;s:283:"Serving "__tag__social" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.201658;}i:66;a:4:{i:0;s:558:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:6:"social";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/social/SocialModule.php (86)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2017701;}i:67;a:4:{i:0;s:261:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/social/SocialModule.php (86)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.201858;}i:68;a:4:{i:0;s:240:"Loading "user" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.2020521;}i:69;a:4:{i:0;s:474:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.202502;}i:70;a:4:{i:0;s:553:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2027161;}i:71;a:4:{i:0;s:258:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.2027709;}i:72;a:4:{i:0;s:241:"Loading "debug" module
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621235.2029669;}i:73;a:4:{i:0;s:304:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (103)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.203701;}i:74;a:4:{i:0;s:265:"Serving "YupeModulesNavigation-ru" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (103)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2039249;}i:75;a:4:{i:0;s:300:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (252)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (230)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2042241;}i:76;a:4:{i:0;s:291:"Serving "pathForImports" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (252)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (230)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2044239;}i:77;a:4:{i:0;s:300:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (258)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (230)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2080979;}i:78;a:4:{i:0;s:292:"Serving "modulesDisabled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (258)
+in /home/admin/Sites/last/protected/modules/yupe/components/ModuleManager.php (230)
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2083149;}i:79;a:4:{i:0;s:180:"Loading "themeManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.208524;}i:80;a:4:{i:0;s:180:"Loading "viewRenderer" application component
+in /home/admin/Sites/last/protected/modules/yupe/controllers/BackendController.php (75)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.208807;}i:81;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.212677;}i:82;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.212754;}i:83;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.212822;}i:84;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2132421;}i:85;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2133141;}i:86;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2133801;}i:87;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2137549;}i:88;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2138259;}i:89;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.213891;}i:90;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.214292;}i:91;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2143641;}i:92;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2144289;}i:93;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2148249;}i:94;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.214896;}i:95;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2149611;}i:96;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2153981;}i:97;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.215471;}i:98;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2155361;}i:99;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2159171;}i:100;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2159879;}i:101;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.216054;}i:102;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2164581;}i:103;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.216531;}i:104;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.216619;}i:105;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2170961;}i:106;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.217169;}i:107;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2172351;}i:108;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2176371;}i:109;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2177091;}i:110;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2177889;}i:111;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2202101;}i:112;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.220341;}i:113;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2204649;}i:114;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2215371;}i:115;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.221689;}i:116;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.221801;}i:117;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.222472;}i:118;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.222589;}i:119;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.222693;}i:120;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2232511;}i:121;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2233801;}i:122;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.223491;}i:123;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.224169;}i:124;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2242711;}i:125;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.22434;}i:126;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2247331;}i:127;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2248061;}i:128;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2248721;}i:129;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.225198;}i:130;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2252691;}i:131;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2253349;}i:132;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.225693;}i:133;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.225764;}i:134;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.225831;}i:135;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.226145;}i:136;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2262161;}i:137;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2262819;}i:138;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.226634;}i:139;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.226728;}i:140;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2267959;}i:141;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.227108;}i:142;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.227217;}i:143;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2272849;}i:144;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.227608;}i:145;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.22768;}i:146;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.227746;}i:147;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2281561;}i:148;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2282281;}i:149;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2282951;}i:150;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2286601;}i:151;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2287321;}i:152;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2287979;}i:153;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.229156;}i:154;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2292471;}i:155;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.229315;}i:156;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2297051;}i:157;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2297781;}i:158;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2298441;}i:159;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2302339;}i:160;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.230305;}i:161;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.23037;}i:162;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.23068;}i:163;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.230751;}i:164;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2308171;}i:165;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.231179;}i:166;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.231251;}i:167;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.231317;}i:168;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2317121;}i:169;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2317841;}i:170;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2318499;}i:171;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2321589;}i:172;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2322309;}i:173;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2322969;}i:174;a:4:{i:0;s:290:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2326579;}i:175;a:4:{i:0;s:293:"Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.232729;}i:176;a:4:{i:0;s:277:"Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.232795;}i:177;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2338281;}i:178;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2339101;}i:179;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.234354;}i:180;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.234437;}i:181;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2349229;}i:182;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2350259;}i:183;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2357819;}i:184;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.235929;}i:185;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2366681;}i:186;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.23681;}i:187;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.237535;}i:188;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2376709;}i:189;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2383821;}i:190;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2385149;}i:191;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.239279;}i:192;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2394249;}i:193;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.240212;}i:194;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2403431;}i:195;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2410541;}i:196;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.241184;}i:197;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.241864;}i:198;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.241991;}i:199;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2427139;}i:200;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2428491;}i:201;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.243613;}i:202;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2437561;}i:203;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2444899;}i:204;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2446361;}i:205;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2453971;}i:206;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.245538;}i:207;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.246269;}i:208;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.246408;}i:209;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.247041;}i:210;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2471311;}i:211;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.247556;}i:212;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.247632;}i:213;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2480259;}i:214;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2481019;}i:215;a:4:{i:0;s:297:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2484961;}i:216;a:4:{i:0;s:287:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2485709;}i:217;a:4:{i:0;s:293:"Loading "uploadManager" application component
+in /home/admin/Sites/last/protected/modules/category/CategoryModule.php (25)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (97)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.250349;}i:218;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2515171;}i:219;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2516179;}i:220;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2530351;}i:221;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.253171;}i:222;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2536061;}i:223;a:4:{i:0;s:299:"Serving "YupeModuleUpdates_category" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2539639;}i:224;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2564139;}i:225;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.256536;}i:226;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2579539;}i:227;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2580881;}i:228;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2585549;}i:229;a:4:{i:0;s:303:"Serving "YupeModuleUpdates_contentblock" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2589171;}i:230;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2612629;}i:231;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2613771;}i:232;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.262747;}i:233;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2628829;}i:234;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.26335;}i:235;a:4:{i:0;s:298:"Serving "YupeModuleUpdates_gallery" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2637;}i:236;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2660229;}i:237;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.266103;}i:238;a:4:{i:0;s:398:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:{{category_category}}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/behaviors/FileUploadBehavior.php (184)
+in /home/admin/Sites/last/protected/modules/yupe/components/behaviors/FileUploadBehavior.php (81)
+in /home/admin/Sites/last/protected/modules/yupe/components/behaviors/ImageUploadBehavior.php (22)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.267076;}i:239;a:4:{i:0;s:255:"Category.findAll()
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (169)
+in /home/admin/Sites/last/protected/modules/image/ImageModule.php (80)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (183)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1417621235.2673471;}i:240;a:4:{i:0;s:317:"Querying SQL: SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (169)
+in /home/admin/Sites/last/protected/modules/image/ImageModule.php (80)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (183)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.267648;}i:241;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.269094;}i:242;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2692101;}i:243;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.269654;}i:244;a:4:{i:0;s:296:"Serving "YupeModuleUpdates_image" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2700169;}i:245;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.272372;}i:246;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2724831;}i:247;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2740321;}i:248;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.274159;}i:249;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2745709;}i:250;a:4:{i:0;s:295:"Serving "YupeModuleUpdates_mail" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.27491;}i:251;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.277195;}i:252;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.277312;}i:253;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.278688;}i:254;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.278831;}i:255;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2793269;}i:256;a:4:{i:0;s:295:"Serving "YupeModuleUpdates_menu" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2796879;}i:257;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.281069;}i:258;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2811439;}i:259;a:4:{i:0;s:253:"Category.findAll()
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (169)
+in /home/admin/Sites/last/protected/modules/page/PageModule.php (44)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (183)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1417621235.28139;}i:260;a:4:{i:0;s:315:"Querying SQL: SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (169)
+in /home/admin/Sites/last/protected/modules/page/PageModule.php (44)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (183)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621235.2816091;}i:261;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2826891;}i:262;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.282764;}i:263;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2830169;}i:264;a:4:{i:0;s:295:"Serving "YupeModuleUpdates_page" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2832501;}i:265;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.284435;}i:266;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2844961;}i:267;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2852161;}i:268;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.285296;}i:269;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2855599;}i:270;a:4:{i:0;s:296:"Serving "YupeModuleUpdates_queue" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.285826;}i:271;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.288167;}i:272;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2882819;}i:273;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.289135;}i:274;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2892699;}i:275;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.289789;}i:276;a:4:{i:0;s:288:"Serving "__tag__social" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2899179;}i:277;a:4:{i:0;s:297:"Serving "YupeModuleUpdates_social" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (610)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2902541;}i:278;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2924399;}i:279;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.292542;}i:280;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2948029;}i:281;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2949171;}i:282;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2957699;}i:283;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.295903;}i:284;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2972701;}i:285;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2974041;}i:286;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.298105;}i:287;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.298167;}i:288;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2986121;}i:289;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.298692;}i:290;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.29972;}i:291;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.2997971;}i:292;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3003199;}i:293;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3004;}i:294;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3014801;}i:295;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3016131;}i:296;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3030789;}i:297;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3032119;}i:298;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3041461;}i:299;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3042309;}i:300;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.305135;}i:301;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3052771;}i:302;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3063259;}i:303;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3064449;}i:304;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3070741;}i:305;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3071711;}i:306;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.308377;}i:307;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.308444;}i:308;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3089371;}i:309;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3090169;}i:310;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.309854;}i:311;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3099351;}i:312;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3104489;}i:313;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.310514;}i:314;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3109951;}i:315;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3110759;}i:316;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3121419;}i:317;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3122101;}i:318;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.312712;}i:319;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3127911;}i:320;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.313652;}i:321;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3137341;}i:322;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3142841;}i:323;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.314348;}i:324;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.314781;}i:325;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3148601;}i:326;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3159001;}i:327;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.315964;}i:328;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3164859;}i:329;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.316565;}i:330;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3173339;}i:331;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3174131;}i:332;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3180029;}i:333;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.318068;}i:334;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3185971;}i:335;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3186769;}i:336;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.319556;}i:337;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3196349;}i:338;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3202369;}i:339;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.320302;}i:340;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.320771;}i:341;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3208499;}i:342;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3216851;}i:343;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3217659;}i:344;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.322289;}i:345;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.322392;}i:346;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3228779;}i:347;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.322957;}i:348;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.323863;}i:349;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.323946;}i:350;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.324568;}i:351;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.324635;}i:352;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3251269;}i:353;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.325207;}i:354;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3260779;}i:355;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.32616;}i:356;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3267691;}i:357;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3268371;}i:358;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3274839;}i:359;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.327569;}i:360;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.329041;}i:361;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3291349;}i:362;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.329953;}i:363;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.330044;}i:364;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.331506;}i:365;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3316009;}i:366;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.332428;}i:367;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3325031;}i:368;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3331051;}i:369;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3331931;}i:370;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.334389;}i:371;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.33448;}i:372;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3350611;}i:373;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.33515;}i:374;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.335655;}i:375;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3357351;}i:376;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3367679;}i:377;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3368361;}i:378;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3375039;}i:379;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.337589;}i:380;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3384631;}i:381;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.338547;}i:382;a:4:{i:0;s:292:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3391531;}i:383;a:4:{i:0;s:287:"Serving "YupeModulesDependent" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (508)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (536)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (155)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.339221;}i:384;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.339782;}i:385;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (200)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.339865;}i:386;a:4:{i:0;s:298:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3407509;}i:387;a:4:{i:0;s:293:"Serving "YupeModulesInstalled" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (577)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (240)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (286)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3408451;}i:388;a:4:{i:0;s:304:"Loading "widgetFactory" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/_moduleslist.php (90)
+in /home/admin/Sites/last/protected/modules/yupe/views/backend/settings.php (63)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621235.3411469;}i:389;a:4:{i:0;s:303:"Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/widgets/YAdminPanel.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/Controller.php (141)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.3505659;}i:390;a:4:{i:0;s:287:"Serving "YAdminPanel::1::ru" from cache
+in /home/admin/Sites/last/protected/modules/yupe/widgets/YAdminPanel.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/admin/Sites/last/protected/modules/yupe/views/layouts/main.php (94)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621235.350667;}}}s:9:"profiling";a:3:{s:6:"memory";i:4989068;s:4:"time";d:0.1868281364440918;s:8:"messages";a:4:{i:0;a:4:{i:0;s:100:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.267674;}i:1;a:4:{i:0;s:98:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.2678671;}i:2;a:4:{i:0;s:100:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.281646;}i:3;a:4:{i:0;s:98:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.281888;}}}s:2:"db";a:2:{s:8:"messages";a:4:{i:0;a:4:{i:0;s:100:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.267674;}i:1;a:4:{i:0;s:98:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.2678671;}i:2;a:4:{i:0;s:100:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.281646;}i:3;a:4:{i:0;s:98:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_category_category` `t` WHERE parent_id IS NULL)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621235.281888;}}s:11:"connections";a:1:{s:2:"db";a:4:{s:5:"class";s:13:"CDbConnection";s:6:"driver";s:5:"mysql";s:6:"server";s:23:"5.5.38-0ubuntu0.12.04.1";s:4:"info";s:137:"Uptime: 23809  Threads: 1  Questions: 4104  Slow queries: 1  Opens: 979  Flush tables: 1  Open tables: 236  Queries per second avg: 0.172";}}}s:7:"summary";a:7:{s:3:"tag";s:13:"547f2ef32c54f";s:3:"url";s:28:"http://last/backend/settings";s:4:"ajax";b:0;s:6:"method";s:3:"GET";s:4:"code";i:200;s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1417621235;}}

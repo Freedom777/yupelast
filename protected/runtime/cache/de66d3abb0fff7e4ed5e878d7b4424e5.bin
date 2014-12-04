@@ -1,0 +1,243 @@
+a:2:{i:0;s:13938:"<nav class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle btn btn-default" data-toggle="collapse" data-target="#yii_booster_collapse_yw3" id="yw4" name="yt0" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/backend" class="navbar-brand"><img width="38" height="38" title="Yupe!" src="/assets/f36eec54/img/logo.png" alt="Yupe!" /></a></div><div class="collapse navbar-collapse" id="yii_booster_collapse_yw3"><ul id="yw5" class="nav navbar-nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-user'></i>
+Пользователи <span class="caret"></span></a><ul id="mainmenu_0" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/user/user"><i class="fa fa-fw fa-user"></i> Пользователи</a><ul id="submenu_user" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Пользователи</a></li>
+<li>
+<a tabindex="-1" href="/backend/user/user"><i class="fa fa-fw fa-list-alt"></i> Управление пользователями</a></li>
+<li>
+<a tabindex="-1" href="/backend/user/user/create"><i class="fa fa-fw fa-plus-square"></i> Добавление пользователя</a></li>
+<li class="nav-header nav-header">
+<a href="#">Токены</a></li>
+<li>
+<a tabindex="-1" href="/backend/user/tokens"><i class="fa fa-fw fa-list-alt"></i> Список токенов</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=user"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/social/social"><i class="fa fa-fw fa-globe"></i> Социализация</a><ul id="submenu_social" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Пользователи</a></li>
+<li>
+<a tabindex="-1" href="/backend/social/social"><i class="fa fa-fw fa-list-alt"></i> Аккаунты</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-file'></i>
+Контент <span class="caret"></span></a><ul id="mainmenu_1" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/page/page"><i class="fa fa-fw fa-file"></i> Страницы</a><ul id="submenu_page" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/page/page"><i class="fa fa-fw fa-list-alt"></i> Список страниц</a></li>
+<li>
+<a tabindex="-1" href="/backend/page/page/create"><i class="fa fa-fw fa-plus-square"></i> Добавить страницу</a></li>
+<li>
+<a tabindex="-1" href="/backend/category/category?Category%5Bparent_id%5D=0"><i class="fa fa-fw fa-folder-open"></i> Категории Страниц</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=page"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/image/image"><i class="fa fa-fw fa-picture-o"></i> Изображения</a><ul id="submenu_image" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/image/image"><i class="fa fa-fw fa-list-alt"></i> Список изображений</a></li>
+<li>
+<a tabindex="-1" href="/backend/image/image/create"><i class="fa fa-fw fa-plus-square"></i> Добавить изображение</a></li>
+<li>
+<a tabindex="-1" href="/backend/category/category?Category%5Bparent_id%5D=0"><i class="fa fa-fw fa-folder-open"></i> Категории изображений</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=image"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/gallery/gallery"><i class="fa fa-fw fa-camera"></i> Галереи</a><ul id="submenu_gallery" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/gallery/gallery"><i class="fa fa-fw fa-list-alt"></i> Список галерей</a></li>
+<li>
+<a tabindex="-1" href="/backend/gallery/gallery/create"><i class="fa fa-fw fa-plus-square"></i> Добавить галерею</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=gallery"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/contentblock/contentBlock"><i class="fa fa-fw fa-th-large"></i> Блоки</a><ul id="submenu_contentblock" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/contentblock/contentBlock"><i class="fa fa-fw fa-list-alt"></i> Список блоков</a></li>
+<li>
+<a tabindex="-1" href="/backend/contentblock/contentBlock/create"><i class="fa fa-fw fa-plus-square"></i> Добавить блок</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=contentblock"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-list'></i>
+Структура <span class="caret"></span></a><ul id="mainmenu_2" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/menu/menu"><i class="fa fa-fw fa-list"></i> Меню</a><ul id="submenu_menu" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Меню</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menu"><i class="fa fa-fw fa-list-alt"></i> Управление меню</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menu/create"><i class="fa fa-fw fa-plus-square"></i> Добавить меню</a></li>
+<li class="nav-header nav-header">
+<a href="#">Пункты меню</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menuitem"><i class="fa fa-fw fa-list-alt"></i> Управление пунктами меню</a></li>
+<li>
+<a tabindex="-1" href="/backend/menu/menuitem/create"><i class="fa fa-fw fa-plus-square"></i> Добавить пункт меню</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=menu"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/category/category"><i class="fa fa-fw fa-folder-open"></i> Категории</a><ul id="submenu_category" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/category/category"><i class="fa fa-fw fa-list-alt"></i> Список категорий</a></li>
+<li>
+<a tabindex="-1" href="/backend/category/category/create"><i class="fa fa-fw fa-plus-square"></i> Добавить категорию</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=category"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-briefcase'></i>
+Сервисы <span class="caret"></span></a><ul id="mainmenu_3" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/queue/queue"><i class="fa fa-fw fa-tasks"></i> Задания</a><ul id="submenu_queue" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/queue/queue"><i class="fa fa-fw fa-list-alt"></i> Список заданий</a></li>
+<li>
+<a tabindex="-1" href="/backend/queue/queue/create"><i class="fa fa-fw fa-plus-square"></i> Добавить задание</a></li>
+<li>
+<a tabindex="-1" href="/backend/queue/queue/clear"><i class="fa fa-fw fa-trash-o"></i> Очистить очередь</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=queue"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/backend/mail/event"><i class="fa fa-fw fa-envelope"></i> Почта</a><ul id="submenu_mail" class="dropdown-menu">
+<li class="nav-header nav-header">
+<a href="#">Почтовые события</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/event"><i class="fa fa-fw fa-list-alt"></i> Список событий</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/event/create"><i class="fa fa-fw fa-plus-square"></i> Добавить событие</a></li>
+<li class="nav-header nav-header">
+<a href="#">Почтовые шаблоны</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/template"><i class="fa fa-fw fa-list-alt"></i> Список шаблонов</a></li>
+<li>
+<a tabindex="-1" href="/backend/mail/template/create"><i class="fa fa-fw fa-plus-square"></i> Добавить шаблон</a></li>
+<li class="divider"></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=mail"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-cog'></i>
+Юпи! <span class="caret"></span></a><ul id="mainmenu_4" class="dropdown-menu">
+<li class="active dropdown-submenu">
+<a tabindex="-1" href="/backend/settings"><i class="fa fa-fw fa-cog"></i> Юпи!</a><ul id="submenu_yupe" class="dropdown-menu">
+<li class="dropdown-submenu">
+<a class="flushAction" method="cacheAll" tabindex="-1" href="/backend/ajaxflush?method=1"><i class="fa fa-fw fa-trash-o"></i> Очистить кеш</a><ul id="yw6" class="dropdown-menu">
+<li>
+<a class="flushAction" method="cacheFlush" tabindex="-1" href="/backend/flushDumpSettings"><i class="fa fa-fw fa-trash-o"></i> Очистить кеш настроек</a></li>
+<li>
+<a class="flushAction" method="cacheFlush" tabindex="-1" href="/backend/ajaxflush?method=1"><i class="fa fa-fw fa-trash-o"></i> Очистить кеш</a></li>
+<li>
+<a class="flushAction" method="assetsFlush" tabindex="-1" href="/backend/ajaxflush?method=2"><i class="fa fa-fw fa-trash-o"></i> Очистить ресурсы (assets)</a></li>
+<li>
+<a class="flushAction" method="cacheAssetsFlush" tabindex="-1" href="/backend/ajaxflush?method=3"><i class="fa fa-fw fa-trash-o"></i> Очистить кеш и ресурсы (assets)</a></li>
+</ul>
+</li>
+<li class="active">
+<a tabindex="-1" href="/backend/settings"><i class="fa fa-fw fa-th"></i> Модули</a></li>
+<li>
+<a tabindex="-1" href="/backend/themesettings"><i class="fa fa-fw fa-picture-o"></i> Настройки темы</a></li>
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=yupe"><i class="fa fa-fw fa-wrench"></i> Настройки сайта</a></li>
+<li>
+<a tabindex="-1" href="/backend/help"><i class="fa fa-fw fa-question-circle"></i> О Юпи!</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="navbar-right nav navbar-nav" id="yw7">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="/backend/help"><i class='fa fa-fw fa-question-circle'></i>
+Помощь <span class="caret"></span></a><ul id="yw8" class="dropdown-menu">
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru?from=help"><i class="fa fa-fw fa-globe"></i> Официальный сайт</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru/docs/index.html?from=help"><i class="fa fa-fw fa-book"></i> Официальная документация</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="https://github.com/yupe/yupe-ext"><i class="fa fa-fw fa-th-large"></i> Дополнительные модули</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru/talk/?from=help"><i class="fa fa-fw fa-comment"></i> Форум</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://gitter.im/yupe/yupe"><i class="fa fa-fw fa-comment"></i> Чат</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="https://github.com/yupe/yupe"><i class="fa fa-fw fa-globe"></i> Сообщество на GitHub</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://amylabs.ru/contact?from=help-support"><i class="fa fa-fw fa-thumbs-up"></i> Разработка и поддержка</a></li>
+<li>
+<a target="_blank" tabindex="-1" href="http://yupe.ru/contacts?from=panel"><i class="fa fa-fw fa-warning"></i> Сообщите об ошибке</a></li>
+<li>
+<a tabindex="-1" href="/backend/help"><i class="fa fa-fw fa-question-circle"></i> О Юпи!</a></li>
+</ul>
+</li>
+<li>
+<a href="http://last"><i class='fa fa-fw fa-home'></i>
+Главная</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-user'></i>
+<span class="label label-info">admin</span> <span class="caret"></span></a><ul id="yw9" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/user/user/update/1"><i class="fa fa-fw fa-cog"></i> Профиль</a></li>
+<li>
+<a tabindex="-1" href="/logout"><i class="fa fa-fw fa-power-off"></i> Выйти</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='iconflags iconflags-ru'></i>
+ru <span class="caret"></span></a><ul style="min-width: 20px;" id="yw10" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/en/backend/settings"><i class="iconflags iconflags-en"></i> en</a></li>
+<li>
+<a tabindex="-1" href="/zh_cn/backend/settings"><i class="iconflags iconflags-zh_cn"></i> zh_cn</a></li>
+</ul>
+</li>
+</ul>
+</div></div></nav>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location.href;
+        $('.navbar .nav li').removeClass('active');
+        $('.nav a').filter(function () {
+            return this.getAttribute("href") != '#' && this.href == url;
+        }).parents('li').addClass('active');
+    });
+</script>
+";i:1;O:9:"TagsCache":2:{s:12:" * timestamp";d:1417432139.9584401;s:7:" * tags";a:3:{i:0;s:4:"yupe";i:1;s:11:"YAdminPanel";i:2;s:16:"installedModules";}}}

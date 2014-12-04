@@ -1,0 +1,133 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:31:"5.4.31-1+deb.sury.org~precise+1";s:10:"yiiVersion";s:6:"1.1.15";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.15";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:13:"Europe/Moscow";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:31:"5.4.31-1+deb.sury.org~precise+1";s:6:"xdebug";b:1;s:3:"apc";b:1;s:8:"memcache";b:1;}}s:7:"request";a:13:{s:7:"flashes";a:1:{s:7:"success";s:49:"Вы успешно авторизовались!";}s:10:"statusCode";i:302;s:14:"requestHeaders";a:10:{s:4:"Host";s:4:"last";s:10:"User-Agent";s:74:"Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0";s:6:"Accept";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:15:"Accept-Language";s:14:"en-US,en;q=0.5";s:15:"Accept-Encoding";s:13:"gzip, deflate";s:7:"Referer";s:25:"http://last/backend/login";s:6:"Cookie";s:217:"PHPSESSID=d04ur6ukj1uc2fn1cf3mufv8o4; YUPE_TOKEN=30fe751b486d20c12161ab0455508670617e475cs%3A40%3A%223023dfa8de14621ccdad4df0a962b274a16bdce2%22%3B; language=72d8009f9d01965c2355e9d9103e4c195c0b1b14s%3A2%3A%22ru%22%3B";s:10:"Connection";s:10:"keep-alive";s:12:"Content-Type";s:33:"application/x-www-form-urlencoded";s:14:"Content-Length";s:3:"165";}s:15:"responseHeaders";a:6:{s:12:"X-Powered-By";s:35:"PHP/5.4.31-1+deb.sury.org~precise+1";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";a:3:{i:0;s:63:"language=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/";i:1;s:125:"language=72d8009f9d01965c2355e9d9103e4c195c0b1b14s%3A2%3A%22ru%22%3B; expires=Thu, 03-Dec-2015 15:40:11 GMT; path=/; httponly";i:2;s:54:"PHPSESSID=32usc0ktb0oeeo40p6dut9bjj4; path=/; HttpOnly";}s:8:"Location";s:28:"http://last/backend/settings";}s:5:"route";s:25:"user/account/backendlogin";s:6:"action";s:18:"LoginAction::run()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:32:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:4:"last";s:15:"HTTP_USER_AGENT";s:74:"Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:25:"http://last/backend/login";s:11:"HTTP_COOKIE";s:217:"PHPSESSID=d04ur6ukj1uc2fn1cf3mufv8o4; YUPE_TOKEN=30fe751b486d20c12161ab0455508670617e475cs%3A40%3A%223023dfa8de14621ccdad4df0a962b274a16bdce2%22%3B; language=72d8009f9d01965c2355e9d9103e4c195c0b1b14s%3A2%3A%22ru%22%3B";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:3:"165";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:22:"Apache/2.2.22 (Ubuntu)";s:11:"SERVER_NAME";s:4:"last";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:29:"/home/admin/Sites/last/public";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:39:"/home/admin/Sites/last/public/index.php";s:11:"REMOTE_PORT";s:5:"34776";s:12:"REDIRECT_URL";s:14:"/backend/login";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:14:"/backend/login";s:11:"SCRIPT_NAME";s:10:"/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1417621211.777;s:12:"REQUEST_TIME";i:1417621211;}s:3:"GET";a:0:{}s:4:"POST";a:3:{s:10:"YUPE_TOKEN";s:40:"3023dfa8de14621ccdad4df0a962b274a16bdce2";s:9:"LoginForm";a:3:{s:5:"email";s:23:"oleg_freedom@rambler.ru";s:8:"password";s:8:"ste4enie";s:11:"remember_me";s:1:"0";}s:3:"yt0";s:0:"";}s:6:"COOKIE";a:3:{s:9:"PHPSESSID";s:26:"d04ur6ukj1uc2fn1cf3mufv8o4";s:10:"YUPE_TOKEN";s:88:"30fe751b486d20c12161ab0455508670617e475cs:40:"3023dfa8de14621ccdad4df0a962b274a16bdce2";";s:8:"language";s:49:"72d8009f9d01965c2355e9d9103e4c195c0b1b14s:2:"ru";";}s:5:"FILES";a:0:{}s:7:"SESSION";a:13:{s:40:"8817a1ffd8d5209887f9a8471be6bcfalanguage";s:2:"ru";s:43:"8817a1ffd8d5209887f9a8471be6bcfa__returnUrl";s:17:"/backend/settings";s:34:"8817a1ffd8d5209887f9a8471be6bcfaid";s:1:"1";s:44:"8817a1ffd8d5209887f9a8471be6bcfaaccess_level";s:1:"1";s:41:"8817a1ffd8d5209887f9a8471be6bcfanick_name";s:5:"admin";s:43:"8817a1ffd8d5209887f9a8471be6bcfamodSettings";a:0:{}s:36:"8817a1ffd8d5209887f9a8471be6bcfa__id";s:1:"1";s:38:"8817a1ffd8d5209887f9a8471be6bcfa__name";s:5:"admin";s:40:"8817a1ffd8d5209887f9a8471be6bcfa__states";a:0:{}s:58:"8817a1ffd8d5209887f9a8471be6bcfaYii.CWebUser.flash.success";s:49:"Вы успешно авторизовались!";s:58:"8817a1ffd8d5209887f9a8471be6bcfaYii.CWebUser.flashcounters";a:1:{s:7:"success";i:0;}s:49:"8817a1ffd8d5209887f9a8471be6bcfaadm_check_attempt";i:1;s:45:"8817a1ffd8d5209887f9a8471be6bcfabadLoginCount";i:0;}}s:3:"log";a:1:{s:8:"messages";a:42:{i:0;a:4:{i:0;s:187:"Loading "urlManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7837319;}i:1;a:4:{i:0;s:309:"Loading "yupe" module
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621211.784126;}i:2;a:4:{i:0;s:265:"Loading "db" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7846811;}i:3;a:4:{i:0;s:252:"Opening DB connection
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:23:"system.db.CDbConnection";i:3;d:1417621211.7849121;}i:4;a:4:{i:0;s:474:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621211.7864571;}i:5;a:4:{i:0;s:268:"Loading "cache" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7865651;}i:6;a:4:{i:0;s:553:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621211.787317;}i:7;a:4:{i:0;s:258:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621211.7873981;}i:8;a:4:{i:0;s:282:"Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (83)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621211.7885661;}i:9;a:4:{i:0;s:282:"Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621211.7894709;}i:10;a:4:{i:0;s:85:"Loading "debug" application component
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7898369;}i:11;a:4:{i:0;s:264:"Loading "request" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7908239;}i:12;a:4:{i:0;s:242:"Loading "assetManager" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (168)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7913611;}i:13;a:4:{i:0;s:242:"Loading "clientScript" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (170)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.791532;}i:14;a:4:{i:0;s:83:"Loading "log" application component
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.792011;}i:15;a:4:{i:0;s:339:"Loading "securityManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.79246;}i:16;a:4:{i:0;s:338:"Loading "statePersister" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.792599;}i:17;a:4:{i:0;s:383:"Serving "Yii.CStatePersister./home/admin/Sites/last/protected/runtime/state.bin" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621211.7929471;}i:18;a:4:{i:0;s:280:"Loading "user" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.793318;}i:19;a:4:{i:0;s:283:"Loading "session" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.793515;}i:20;a:4:{i:0;s:69:"Loading "user" module
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1417621211.7943189;}i:21;a:4:{i:0;s:474:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621211.7947609;}i:22;a:4:{i:0;s:553:"Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621211.7949851;}i:23;a:4:{i:0;s:258:"Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621211.7950549;}i:24;a:4:{i:0;s:189:"Loading "eventManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/FrontController.php (31)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7956891;}i:25;a:4:{i:0;s:189:"Loading "themeManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/FrontController.php (41)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7962949;}i:26;a:4:{i:0;s:245:"Loading "bootstrap" application component
+in /home/admin/Sites/last/themes/default/bootstrap.php (5)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/FrontController.php (44)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7966321;}i:27;a:4:{i:0;s:191:"Loading "authenticationManager" application component
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (29)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7982039;}i:28;a:4:{i:0;s:252:"Loading "messages" application component
+in /home/admin/Sites/last/protected/modules/user/forms/LoginForm.php (35)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (39)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621211.7987449;}i:29;a:4:{i:0;s:349:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:{{user_user}}" from cache
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (26)
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (26)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621211.9275341;}i:30;a:4:{i:0;s:274:"User.find()
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (33)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1417621211.9277351;}i:31;a:4:{i:0;s:464:"Querying SQL: SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (email = :username OR nick_name = :username) LIMIT 1. Bound with :user_status=1, :username='oleg_freedom@rambler.ru'
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (33)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621211.9280839;}i:32;a:4:{i:0;s:306:"Loading "userManager" application component
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (40)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1417621212.1981189;}i:33;a:4:{i:0;s:278:"yupe\models\Settings.findAll()
+in /home/admin/Sites/last/protected/modules/yupe/models/Settings.php (254)
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (57)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1417621212.7545221;}i:34;a:4:{i:0;s:346:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:{{yupe_settings}}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/models/Settings.php (254)
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (57)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621212.766083;}i:35;a:4:{i:0;s:372:"Querying SQL: SELECT * FROM `yupe_yupe_settings` `t` WHERE (user_id=:ycp0) AND (type=:ycp1). Bound with :ycp0='1', :ycp1='2'
+in /home/admin/Sites/last/protected/modules/yupe/models/Settings.php (254)
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (57)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621212.766571;}i:36;a:4:{i:0;s:276:"User.update()
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (77)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1417621212.7670989;}i:37;a:4:{i:0;s:280:"User.updateByPk()
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (77)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1417621212.7673149;}i:38;a:4:{i:0;s:354:"Executing SQL: UPDATE `yupe_user_user` SET `last_visit`=NOW() WHERE `yupe_user_user`.`id`=1
+in /home/admin/Sites/last/protected/modules/user/components/UserIdentity.php (77)
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (42)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1417621212.767622;}i:39;a:4:{i:0;s:291:"Saving "__tag__loggedIn1" to cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (229)
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (229)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1417621212.838484;}i:40;a:4:{i:0;s:305:"Инвалидированы теги: loggedIn1
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (40)
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (229)
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (229)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1417621212.8825691;}i:41;a:4:{i:0;s:336:"Пользователь oleg_freedom@rambler.ru авторизовался с IP-адресом 127.0.0.1!
+in /home/admin/Sites/last/protected/modules/user/components/AuthenticationManager.php (59)
+in /home/admin/Sites/last/protected/modules/user/controllers/account/LoginAction.php (45)
+in /home/admin/Sites/last/public/index.php (35)";i:1;s:4:"info";i:2;s:24:"application.modules.user";i:3;d:1417621212.882679;}}}s:9:"profiling";a:3:{s:6:"memory";i:2532044;s:4:"time";d:1.1065421104431152;s:8:"messages";a:6:{i:0;a:4:{i:0;s:221:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (email = :username OR nick_name = :username) LIMIT 1. Bound with :user_status=1, :username='oleg_freedom@rambler.ru')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621211.9281061;}i:1;a:4:{i:0;s:219:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (email = :username OR nick_name = :username) LIMIT 1. Bound with :user_status=1, :username='oleg_freedom@rambler.ru')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621212.1978271;}i:2;a:4:{i:0;s:144:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_yupe_settings` `t` WHERE (user_id=:ycp0) AND (type=:ycp1). Bound with :ycp0='1', :ycp1='2')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621212.7666271;}i:3;a:4:{i:0;s:142:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_yupe_settings` `t` WHERE (user_id=:ycp0) AND (type=:ycp1). Bound with :ycp0='1', :ycp1='2')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621212.766876;}i:4;a:4:{i:0;s:112:"begin:system.db.CDbCommand.execute(UPDATE `yupe_user_user` SET `last_visit`=NOW() WHERE `yupe_user_user`.`id`=1)";i:1;s:7:"profile";i:2;s:28:"system.db.CDbCommand.execute";i:3;d:1417621212.767657;}i:5;a:4:{i:0;s:110:"end:system.db.CDbCommand.execute(UPDATE `yupe_user_user` SET `last_visit`=NOW() WHERE `yupe_user_user`.`id`=1)";i:1;s:7:"profile";i:2;s:28:"system.db.CDbCommand.execute";i:3;d:1417621212.837934;}}}s:2:"db";a:2:{s:8:"messages";a:6:{i:0;a:4:{i:0;s:221:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (email = :username OR nick_name = :username) LIMIT 1. Bound with :user_status=1, :username='oleg_freedom@rambler.ru')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621211.9281061;}i:1;a:4:{i:0;s:219:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (email = :username OR nick_name = :username) LIMIT 1. Bound with :user_status=1, :username='oleg_freedom@rambler.ru')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621212.1978271;}i:2;a:4:{i:0;s:144:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_yupe_settings` `t` WHERE (user_id=:ycp0) AND (type=:ycp1). Bound with :ycp0='1', :ycp1='2')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621212.7666271;}i:3;a:4:{i:0;s:142:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_yupe_settings` `t` WHERE (user_id=:ycp0) AND (type=:ycp1). Bound with :ycp0='1', :ycp1='2')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1417621212.766876;}i:4;a:4:{i:0;s:112:"begin:system.db.CDbCommand.execute(UPDATE `yupe_user_user` SET `last_visit`=NOW() WHERE `yupe_user_user`.`id`=1)";i:1;s:7:"profile";i:2;s:28:"system.db.CDbCommand.execute";i:3;d:1417621212.767657;}i:5;a:4:{i:0;s:110:"end:system.db.CDbCommand.execute(UPDATE `yupe_user_user` SET `last_visit`=NOW() WHERE `yupe_user_user`.`id`=1)";i:1;s:7:"profile";i:2;s:28:"system.db.CDbCommand.execute";i:3;d:1417621212.837934;}}s:11:"connections";a:1:{s:2:"db";a:4:{s:5:"class";s:13:"CDbConnection";s:6:"driver";s:5:"mysql";s:6:"server";s:23:"5.5.38-0ubuntu0.12.04.1";s:4:"info";s:137:"Uptime: 23786  Threads: 1  Questions: 4006  Slow queries: 1  Opens: 979  Flush tables: 1  Open tables: 236  Queries per second avg: 0.168";}}}s:7:"summary";a:7:{s:3:"tag";s:13:"547f2edbc0f48";s:3:"url";s:25:"http://last/backend/login";s:4:"ajax";b:0;s:6:"method";s:4:"POST";s:4:"code";i:302;s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1417621212;}}
