@@ -19,6 +19,8 @@
  * @property string  $last_visit
  * @property boolean $email_confirm
  * @property string  $registration_date
+ * @property string  $meeting_date
+ * @property integer $age
  *
  */
 class User extends yupe\models\YModel
@@ -107,22 +109,22 @@ class User extends yupe\models\YModel
 
         return array(
             array(
-                'birth_date, site, about, location, nick_name, first_name, last_name, middle_name, email',
+                'birth_date, site, about, location, nick_name, first_name, last_name, middle_name, email, meeting_date',
                 'filter',
                 'filter' => 'trim'
             ),
             array(
-                'birth_date, site, about, location, nick_name, first_name, last_name, middle_name, email',
+                'birth_date, site, about, location, nick_name, first_name, last_name, middle_name, email, meeting_date',
                 'filter',
                 'filter' => array($obj = new CHtmlPurifier(), 'purify')
             ),
-            array('nick_name, email, hash', 'required'),
+            array('nick_name, hash', 'required'),
             array('first_name, last_name, middle_name, nick_name, email', 'length', 'max' => 50),
             array('hash', 'length', 'max' => 256),
             array('site', 'length', 'max' => 100),
             array('about', 'length', 'max' => 300),
             array('location', 'length', 'max' => 150),
-            array('gender, status, access_level', 'numerical', 'integerOnly' => true),
+            array('gender, status, access_level, age', 'numerical', 'integerOnly' => true),
             array(
                 'nick_name',
                 'match',
@@ -151,13 +153,15 @@ class User extends yupe\models\YModel
             array('status', 'in', 'range' => array_keys($this->getStatusList())),
             array('registration_date', 'length', 'max' => 50),
             array(
-                'id, change_date, middle_name, first_name, last_name, nick_name, email, gender, avatar, status, access_level, last_visit',
+                'id, change_date, middle_name, first_name, last_name, nick_name, email, gender, avatar, status, access_level, last_visit, age',
                 'safe',
                 'on' => 'search'
             ),
-            array('birth_date', 'default', 'setOnEmpty' => true, 'value' => null),
+            array('birth_date, age', 'default', 'setOnEmpty' => true, 'value' => null),
             array('registration_date', 'default', 'value' => new CDbExpression('NOW()'), 'on' => 'insert'),
-            array('change_date', 'default', 'value' => new CDbExpression('NOW()'), 'on' => 'update')
+            array('change_date', 'default', 'value' => new CDbExpression('NOW()'), 'on' => 'update'),
+
+            array('meeting_date', 'default', 'value' => new CDbExpression('NOW()'), 'on' => 'insert'),
         );
     }
 
@@ -209,6 +213,8 @@ class User extends yupe\models\YModel
             'site'              => Yii::t('UserModule.user', 'Site/blog'),
             'location'          => Yii::t('UserModule.user', 'Location'),
             'about'             => Yii::t('UserModule.user', 'About yourself'),
+            'meeting_date'      => Yii::t('UserModule.user', 'Meeting Date'),
+            'age'               => Yii::t('UserModule.user', 'Age'),
         );
     }
 

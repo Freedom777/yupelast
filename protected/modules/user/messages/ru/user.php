@@ -363,4 +363,8 @@ return array(
     'Email was updated.' => 'Email был изменен.',
     'Your password was changed successfully.' => 'Ваш пароль успешно изменен.',
     'Avatar extensions' => 'Расширения аватаров',
+
+    'Meeting Date' => 'Дата встречи',
+    'Age' => 'Возраст',
+    'Params' => 'Параметры',
 );

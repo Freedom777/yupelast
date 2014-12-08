@@ -26,6 +26,42 @@ $form = $this->beginWidget(
         ); ?>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-sm-7">
+        <?php echo $form->textFieldGroup($model, 'first_name'); ?>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-7">
+        <?php echo $form->textFieldGroup($model, 'age'); ?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?php echo $form->datePickerGroup(
+            $model,
+            'meeting_date',
+            array(
+                'widgetOptions' => array(
+                    'options' => array(
+                        'format'      => 'yyyy-mm-dd',
+                        'weekStart'   => 1,
+                        'autoclose'   => true,
+                        'orientation' => 'auto right',
+                        'startView'   => 2,
+                    ),
+                ),
+                'prepend'       => '<i class="fa fa-calendar"></i>',
+            )
+        );
+        ?>
+    </div>
+</div>
+
+
+
 <div class="row">
     <div class="col-sm-7">
         <?php echo $form->textFieldGroup($model, 'email'); ?>
@@ -46,11 +82,15 @@ $form = $this->beginWidget(
         <?php echo $form->textFieldGroup($model, 'middle_name'); ?>
     </div>
 </div>
+<?php echo $form->hiddenField($model, 'site', array('value' => '')); ?>
+<!--
 <div class="row">
     <div class="col-sm-7">
         <?php echo $form->textFieldGroup($model, 'site'); ?>
     </div>
 </div>
+-->
+
 <div class="row">
     <div class="col-sm-3">
         <?php echo $form->datePickerGroup(
@@ -101,6 +141,9 @@ $form = $this->beginWidget(
         ); ?>
     </div>
 </div>
+
+<?php echo $form->hiddenField($model, 'status', array('value' => User::STATUS_NOT_ACTIVE)); ?>
+<!--
 <div class="row">
     <div class="col-sm-7">
         <?php echo $form->dropDownListGroup(
@@ -114,7 +157,10 @@ $form = $this->beginWidget(
         ); ?>
     </div>
 </div>
+-->
 
+<?php echo $form->hiddenField($model, 'email_confirm', array('value' => User::EMAIL_CONFIRM_NO)); ?>
+<!--
 <div class="row">
     <div class="col-sm-7">
         <?php echo $form->dropDownListGroup(
@@ -128,7 +174,10 @@ $form = $this->beginWidget(
         ); ?>
     </div>
 </div>
+-->
 
+<?php echo $form->hiddenField($model, 'access_level', array('value' => User::ACCESS_LEVEL_USER)); ?>
+<!--
 <div class="row">
     <div class="col-sm-7">
         <?php echo $form->dropDownListGroup(
@@ -142,6 +191,7 @@ $form = $this->beginWidget(
         ); ?>
     </div>
 </div>
+-->
 
 <?php $this->widget(
     'bootstrap.widgets.TbButton',

@@ -124,6 +124,10 @@ class UserBackendController extends yupe\components\controllers\BackController
                 );
             }
         }
+        else
+        {
+            $model->setAttribute('gender', User::GENDER_FEMALE);
+        }
 
         $this->render('create', array('model' => $model));
     }
