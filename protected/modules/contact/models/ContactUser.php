@@ -32,7 +32,7 @@ class ContactUser extends yupe\models\YModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, provider_id, uid, description', 'required'),
+			array('user_id, provider_id, uid', 'required'),
 			array('user_id, provider_id', 'numerical', 'integerOnly'=>true),
 			array('uid, description', 'length', 'max'=>255),
 			// The following rule is used by search().
@@ -60,11 +60,11 @@ class ContactUser extends yupe\models\YModel
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'user_id' => 'User',
-			'provider_id' => 'Provider',
-			'uid' => 'Uid',
-			'description' => 'Description',
+			'id' => Yii::t('ContactModule.contact', 'ID'),
+			'user_id' => Yii::t('ContactModule.contact', 'User'),
+			'provider_id' => Yii::t('ContactModule.contact', 'Provider'),
+			'uid' => Yii::t('ContactModule.contact', 'Uid'),
+			'description' => Yii::t('ContactModule.contact', 'Description'),
 		);
 	}
 
