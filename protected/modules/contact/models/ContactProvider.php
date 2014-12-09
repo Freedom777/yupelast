@@ -58,12 +58,12 @@ class ContactProvider extends yupe\models\YModel
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'code' => 'Code',
-			'name' => 'Name',
-			'template' => 'Template',
-			'icon' => 'Icon',
-			'fa_css_class' => 'Fa Css Class',
+			'id' => Yii::t('ContactModule.contact', 'ID'),
+			'code' => Yii::t('ContactModule.contact', 'Code'),
+			'name' => Yii::t('ContactModule.contact', 'Name'),
+			'template' => Yii::t('ContactModule.contact', 'Template'),
+			'icon' => Yii::t('ContactModule.contact', 'Icon'),
+			'fa_css_class' => Yii::t('ContactModule.contact', 'Fa Css Class'),
 		);
 	}
 

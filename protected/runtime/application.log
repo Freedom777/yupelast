@@ -4232,3 +4232,286 @@ in /home/admin/Sites/last/public/index.php (35)
 2014/12/09 21:28:59 [trace] [system.CModule] Loading "themeManager" application component
 in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/controllers/DefaultController.php (136)
 in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "urlManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.base.CModule] Loading "yupe" module
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "db" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:07 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "cache" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (83)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "debug" application component
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "request" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "assetManager" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (168)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "clientScript" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (170)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "log" application component
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "securityManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "statePersister" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/admin/Sites/last/protected/runtime/state.bin" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "user" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "session" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.base.CModule] Loading "user" module
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/user/UserModule.php (332)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "bootstrap" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (72)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "messages" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (75)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "errorHandler" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (78)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "eventManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (81)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.web.filters.CFilterChain] Running filter yupe\filters\YBackAccessControl.filter()
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:{{user_user}}" from cache
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (99)
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (99)
+in /home/admin/Sites/last/protected/modules/yupe/filters/YBackAccessControl.php (39)
+2014/12/09 21:33:07 [trace] [system.db.ar.CActiveRecord] User.find()
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (105)
+in /home/admin/Sites/last/protected/modules/yupe/filters/YBackAccessControl.php (39)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1'
+in /home/admin/Sites/last/protected/modules/user/components/YWebUser.php (105)
+in /home/admin/Sites/last/protected/modules/yupe/filters/YBackAccessControl.php (39)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "migrator" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (104)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:yupe_migrations" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (42)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/BackController.php (104)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "__tag__getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "getMigrationHistory" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (392)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (470)
+in /home/admin/Sites/last/protected/modules/yupe/components/Migrator.php (514)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:{{contact_user}}" from cache
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (100)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.db.ar.CActiveRecord] ContactProvider.findAll()
+in /home/admin/Sites/last/protected/modules/contact/models/ContactProvider.php (113)
+in /home/admin/Sites/last/protected/modules/contact/models/ContactUser.php (117)
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (156)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=last:root:{{contact_provider}}" from cache
+in /home/admin/Sites/last/protected/modules/contact/models/ContactProvider.php (113)
+in /home/admin/Sites/last/protected/modules/contact/models/ContactUser.php (117)
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (156)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `yupe_contact_provider` `t` ORDER BY name
+in /home/admin/Sites/last/protected/modules/contact/models/ContactProvider.php (113)
+in /home/admin/Sites/last/protected/modules/contact/models/ContactUser.php (117)
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (156)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "themeManager" application component
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (157)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "viewRenderer" application component
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (157)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/_form.php (11)
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/create.php (50)
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (157)
+2014/12/09 21:33:07 [trace] [system.CModule] Loading "coreMessages" application component
+in /home/admin/Sites/last/vendor/clevertech/yii-booster/src/widgets/TbActiveForm.php (173)
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/_form.php (19)
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/create.php (50)
+2014/12/09 21:33:07 [trace] [system.db.ar.CActiveRecord] ContactUser.findAll()
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/_form.php (38)
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/create.php (50)
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (157)
+2014/12/09 21:33:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `yupe_contact_user` `t` WHERE user_id = :user_id. Bound with :user_id=NULL
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/_form.php (38)
+in /home/admin/Sites/last/protected/modules/user/views/userBackend/create.php (50)
+in /home/admin/Sites/last/protected/modules/user/controllers/UserBackendController.php (157)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "__tag__installedModules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/extensions/tagcache/TagsCache.php (54)
+in /home/admin/Sites/last/protected/modules/yupe/widgets/YAdminPanel.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/Controller.php (141)
+2014/12/09 21:33:07 [trace] [system.caching.CFileCache] Serving "YAdminPanel::1::ru" from cache
+in /home/admin/Sites/last/protected/modules/yupe/widgets/YAdminPanel.php (29)
+in /home/admin/Sites/last/protected/modules/yupe/components/controllers/Controller.php (141)
+in /home/admin/Sites/last/protected/modules/yupe/views/layouts/main.php (94)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "urlManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.base.CModule] Loading "yupe" module
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (129)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (46)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "db" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:09 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1007)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:09 [trace] [system.db.CDbCommand] Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "cache" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:09 [trace] [system.caching.CFileCache] Serving "yii:dbquerymysql:host=127.0.0.1;port=3306;dbname=last:root:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:09 [trace] [system.db.CDbCommand] Query result found in cache
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (1018)
+in /home/admin/Sites/last/protected/modules/yupe/components/WebModule.php (990)
+in /home/admin/Sites/last/protected/modules/yupe/YupeModule.php (648)
+2014/12/09 21:33:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (83)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LangUrlManager.php (87)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "debug" application component
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "request" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "assetManager" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (168)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "clientScript" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (170)
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "log" application component
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "securityManager" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "statePersister" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)
+2014/12/09 21:33:09 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./home/admin/Sites/last/protected/runtime/state.bin" from cache
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (53)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (82)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (112)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "user" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "session" application component
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (207)
+in /home/admin/Sites/last/protected/modules/yupe/components/urlManager/LanguageBehavior.php (165)
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.base.CModule] Loading "debug" module
+in /home/admin/Sites/last/public/index.php (35)
+2014/12/09 21:33:09 [trace] [system.CModule] Loading "themeManager" application component
+in /home/admin/Sites/last/vendor/zhuravljov/yii2-debug/controllers/DefaultController.php (136)
+in /home/admin/Sites/last/public/index.php (35)
