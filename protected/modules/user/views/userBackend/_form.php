@@ -18,6 +18,50 @@ $form = $this->beginWidget(
 
 <?php echo $form->errorSummary($model); ?>
 
+<?php
+
+$this->widget('vendor.yiiext.multimodelform.MultiModelForm',array(
+    'id' => 'id_user', //the unique widget id
+    'formConfig' => $contactUserFormConfig, //the form configuration array
+    'model' => $ContactUser, //instance of the form model
+
+    //if submitted (not empty) from the controller,
+    //the form will be rendered with validation errors
+    'validatedItems' => $validatedContacts,
+
+    //array of member instances loaded from db
+    //only needed if validatedItems are empty (not in displaying validation errors mode)
+    'data' => empty($validatedContacts) ? $ContactUser->findAll(
+            array('condition'=>'user_id = :user_id',
+                'params'=>array(':user_id' => $model->id),
+                //'order'=>'name', //see 'sortAttribute' below
+            )) : null,
+
+    'sortAttribute' => 'name', //if assigned: sortable fieldsets is enabled
+    //'removeOnClick' => 'alert("test")',
+    'hideCopyTemplate'=>true,
+    'clearInputs'=>false,
+    'tableView' => true, //sortable will not work
+    //'jsAfterCloneCallback'=>'alertIds',
+    'showAddItemOnError' => false, //not allow add items when in validation error mode (default = true)
+
+    //------------ output style ----------------------
+    //'tableView' => true, //sortable will not work
+
+    //add position:relative because of embedded removeLinkWrapper with style position:absolute
+    'fieldsetWrapper' => array('tag' => 'div',
+        'htmlOptions' => array('class' => 'view','style'=>'position:relative;background:#EFEFEF;')
+    ),
+
+    'removeLinkWrapper' => array('tag' => 'div',
+        'htmlOptions' => array('style'=>'position:absolute; top:1em; right:1em;')
+    ),
+
+));
+
+?>
+
+
 <div class="row">
     <div class="col-sm-7">
         <?php echo $form->textFieldGroup(

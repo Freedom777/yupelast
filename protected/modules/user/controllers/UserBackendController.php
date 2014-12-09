@@ -95,12 +95,26 @@ class UserBackendController extends yupe\components\controllers\BackController
      */
     public function actionCreate()
     {
+        Yii::import('vendor.yiiext.multimodelform.MultiModelForm');
+
+        $ContactUser = new ContactUser;
+        $validatedContacts = array();  //ensure an empty array
+
         $model = new User();
 
         if (($data = Yii::app()->getRequest()->getPost('User')) !== null) {
 
             $model->setAttributes($data);
 
+            //validate detail before saving the master
+            $contactFlagOK = MultiModelForm::validate($ContactUser, $validatedContacts, $deleteContacts);
+/*
+            if ( !empty($contactFlagOK) && empty($validatedContacts) )
+            {
+                Yii::app()->user->setFlash('error','No contacts submitted');
+                $contactFlagOK = false;
+            }
+*/
             $model->setAttributes(
                 array(
                     'hash' => Yii::app()->userManager->hasher->hashPassword(
@@ -109,19 +123,25 @@ class UserBackendController extends yupe\components\controllers\BackController
                 )
             );
 
-            if ($model->save()) {
+            if ( !empty($contactFlagOK) && $model->save() )
+            {
+                //the value for the foreign key 'groupid'
+                $masterValues = array ('user_id' => $model->id);
 
-                Yii::app()->user->setFlash(
-                    yupe\widgets\YFlashMessages::SUCCESS_MESSAGE,
-                    Yii::t('UserModule.user', 'New user was created!')
-                );
+                if ( MultiModelForm::save($ContactUser, $validatedContacts, $deleteContacts, $masterValues) )
+                {
+                    Yii::app()->user->setFlash(
+                        yupe\widgets\YFlashMessages::SUCCESS_MESSAGE,
+                        Yii::t('UserModule.user', 'New user was created!')
+                    );
 
-                $this->redirect(
-                    (array)Yii::app()->getRequest()->getPost(
-                        'submit-type',
-                        array('create')
-                    )
-                );
+                    $this->redirect(
+                        (array)Yii::app()->getRequest()->getPost(
+                            'submit-type',
+                            array('create')
+                        )
+                    );
+                }
             }
         }
         else
@@ -129,7 +149,12 @@ class UserBackendController extends yupe\components\controllers\BackController
             $model->setAttribute('gender', User::GENDER_FEMALE);
         }
 
-        $this->render('create', array('model' => $model));
+        $this->render('create', array(
+            'model' => $model,
+            'ContactUser' => $ContactUser,
+            'validatedContacts' => $validatedContacts,
+            'contactUserFormConfig' => ContactUser::getFormConfig(),
+        ));
     }
 
     /**

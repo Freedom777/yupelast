@@ -1,4 +1,4 @@
-a:2:{i:0;s:13950:"<nav class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle btn btn-default" data-toggle="collapse" data-target="#yii_booster_collapse_yw6" id="yw7" name="yt1" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/backend" class="navbar-brand"><img width="38" height="38" title="Yupe!" src="/assets/f36eec54/img/logo.png" alt="Yupe!" /></a></div><div class="collapse navbar-collapse" id="yii_booster_collapse_yw6"><ul id="yw8" class="nav navbar-nav">
+a:2:{i:0;s:14199:"<nav class="navbar navbar-default navbar-fixed-top"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle btn btn-default" data-toggle="collapse" data-target="#yii_booster_collapse_yw6" id="yw7" name="yt0" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/backend" class="navbar-brand"><img width="38" height="38" title="Yupe!" src="/assets/f36eec54/img/logo.png" alt="Yupe!" /></a></div><div class="collapse navbar-collapse" id="yii_booster_collapse_yw6"><ul id="yw8" class="nav navbar-nav">
 <li class="dropdown">
 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-fw fa-user'></i>
 Пользователи <span class="caret"></span></a><ul id="mainmenu_0" class="dropdown-menu">
@@ -8,7 +8,7 @@ a:2:{i:0;s:13950:"<nav class="navbar navbar-default navbar-fixed-top"><div class
 <a href="#">Пользователи</a></li>
 <li>
 <a tabindex="-1" href="/backend/user/user"><i class="fa fa-fw fa-list-alt"></i> Управление пользователями</a></li>
-<li class="active">
+<li>
 <a tabindex="-1" href="/backend/user/user/create"><i class="fa fa-fw fa-plus-square"></i> Добавление пользователя</a></li>
 <li class="nav-header nav-header">
 <a href="#">Токены</a></li>
@@ -25,6 +25,12 @@ a:2:{i:0;s:13950:"<nav class="navbar navbar-default navbar-fixed-top"><div class
 <a href="#">Пользователи</a></li>
 <li>
 <a tabindex="-1" href="/backend/social/social"><i class="fa fa-fw fa-list-alt"></i> Аккаунты</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a tabindex="-1" href="/contact/default/index">Контакты</a><ul id="submenu_contact" class="dropdown-menu">
+<li>
+<a tabindex="-1" href="/backend/modulesettings?module=contact"><i class="fa fa-fw fa-cog"></i> Настройки модуля</a></li>
 </ul>
 </li>
 </ul>
@@ -224,9 +230,9 @@ a:2:{i:0;s:13950:"<nav class="navbar navbar-default navbar-fixed-top"><div class
 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='iconflags iconflags-ru'></i>
 ru <span class="caret"></span></a><ul style="min-width: 20px;" id="yw13" class="dropdown-menu">
 <li>
-<a tabindex="-1" href="/en/backend/user/user/create"><i class="iconflags iconflags-en"></i> en</a></li>
+<a tabindex="-1" href="/en/backend"><i class="iconflags iconflags-en"></i> en</a></li>
 <li>
-<a tabindex="-1" href="/zh_cn/backend/user/user/create"><i class="iconflags iconflags-zh_cn"></i> zh_cn</a></li>
+<a tabindex="-1" href="/zh_cn/backend"><i class="iconflags iconflags-zh_cn"></i> zh_cn</a></li>
 </ul>
 </li>
 </ul>
@@ -240,4 +246,4 @@ ru <span class="caret"></span></a><ul style="min-width: 20px;" id="yw13" class="
         }).parents('li').addClass('active');
     });
 </script>
-";i:1;O:9:"TagsCache":2:{s:12:" * timestamp";d:1418044300.097342;s:7:" * tags";a:3:{i:0;s:4:"yupe";i:1;s:11:"YAdminPanel";i:2;s:16:"installedModules";}}}
+";i:1;O:9:"TagsCache":2:{s:12:" * timestamp";d:1418145250.3859291;s:7:" * tags";a:3:{i:0;s:4:"yupe";i:1;s:11:"YAdminPanel";i:2;s:16:"installedModules";}}}

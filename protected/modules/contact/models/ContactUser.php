@@ -14,7 +14,7 @@
  * @property UserUser $user
  * @property ContactProvider $provider
  */
-class ContactUser extends CActiveRecord
+class ContactUser extends yupe\models\YModel
 {
 	/**
 	 * @return string the associated database table name
@@ -107,4 +107,23 @@ class ContactUser extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    public static function getFormConfig()
+    {
+        return array(
+            'elements'=>array(
+                'provider_id' => array(
+                    'type'=>'dropdownlist',
+                    'items' => ContactProvider::getAssocList(),
+                ),
+                'uid'=>array(
+                    'type' => 'text',
+                    'maxlength' => 255,
+                ),
+                'description'=>array(
+                    'type' => 'text',
+                    'maxlength' => 255,
+                ),
+            ));
+    }
 }

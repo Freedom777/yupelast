@@ -14,7 +14,7 @@
  * The followings are the available model relations:
  * @property ContactUser[] $contactUsers
  */
-class ContactProvider extends CActiveRecord
+class ContactProvider extends yupe\models\YModel
 {
 	/**
 	 * @return string the associated database table name
@@ -107,4 +107,9 @@ class ContactProvider extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    public static function getAssocList()
+    {
+        return CHtml::listData(self::model()->findAll(array('order' => 'name')), 'id', 'name');
+    }
 }
