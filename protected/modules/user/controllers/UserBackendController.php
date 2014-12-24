@@ -96,8 +96,10 @@ class UserBackendController extends yupe\components\controllers\BackController
     public function actionCreate()
     {
         Yii::import('vendor.yiiext.multimodelform.MultiModelForm');
+        Yii::import('application.modules.contact.ContactModule');
 
         $ContactUser = new ContactUser;
+        $deleteContacts = array(); // just init for later use as argument
         $validatedContacts = array();  //ensure an empty array
 
         $model = new User();
@@ -106,8 +108,10 @@ class UserBackendController extends yupe\components\controllers\BackController
 
             $model->setAttributes($data);
 
+
             //validate detail before saving the master
             $contactFlagOK = MultiModelForm::validate($ContactUser, $validatedContacts, $deleteContacts);
+
 /*
             if ( !empty($contactFlagOK) && empty($validatedContacts) )
             {
@@ -167,29 +171,48 @@ class UserBackendController extends yupe\components\controllers\BackController
      */
     public function actionUpdate($id)
     {
+        Yii::import('vendor.yiiext.multimodelform.MultiModelForm');
+        Yii::import('application.modules.contact.ContactModule');
+
+        $ContactUser = new ContactUser;
+        $validatedContacts = array();  //ensure an empty array
+        $deleteContacts = array(); // just init for later use as argument
+
         $model = $this->loadModel($id);
 
         if (($data = Yii::app()->getRequest()->getPost('User')) !== null) {
 
+            // $contactFlagOK = MultiModelForm::validate($ContactUser, $validatedContacts, $deleteContacts);
+            // var_dump($contactFlagOK, $ContactUser, $validatedContacts, $deleteContacts);die();
             $model->setAttributes($data);
 
-            if ($model->save()) {
+            // if ( !empty($contactFlagOK)  )
+            // {
+                $masterValues = array ('user_id' => $model->id);
+// var_dump($validatedContacts);die();
+                if ( MultiModelForm::save($ContactUser, $validatedContacts, $deleteContacts, $masterValues) && $model->save() )
+                {
+                    Yii::app()->user->setFlash(
+                        yupe\widgets\YFlashMessages::SUCCESS_MESSAGE,
+                        Yii::t('UserModule.user', 'Data was updated!')
+                    );
 
-                Yii::app()->user->setFlash(
-                    yupe\widgets\YFlashMessages::SUCCESS_MESSAGE,
-                    Yii::t('UserModule.user', 'Data was updated!')
-                );
-
-                $this->redirect(
-                    (array)Yii::app()->getRequest()->getPost(
-                        'submit-type',
-                        array('update', 'id' => $model->id)
-                    )
-                );
-            }
+                    $this->redirect(
+                        (array)Yii::app()->getRequest()->getPost(
+                            'submit-type',
+                            array('update', 'id' => $model->id)
+                        )
+                    );
+                }
+            // }
         }
 
-        $this->render('update', array('model' => $model));
+        $this->render('update', array(
+            'model' => $model,
+            'ContactUser' => $ContactUser,
+            'validatedContacts' => $validatedContacts,
+            'contactUserFormConfig' => ContactUser::getFormConfig(),
+        ));
     }
 
     /**

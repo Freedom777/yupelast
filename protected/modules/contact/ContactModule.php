@@ -56,6 +56,7 @@ class ContactModule extends WebModule
 		$this->setImport(array(
 			'contact.models.*',
 			'contact.components.*',
+            'contact.messages.*',
 		));
 	}
 
@@ -70,4 +71,5 @@ class ContactModule extends WebModule
 		else
 			return false;
 	}
+
 }

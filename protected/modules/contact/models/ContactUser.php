@@ -60,12 +60,22 @@ class ContactUser extends yupe\models\YModel
 	public function attributeLabels()
 	{
 		return array(
-			'id' => Yii::t('ContactModule.contact', 'ID'),
-			'user_id' => Yii::t('ContactModule.contact', 'User'),
-			'provider_id' => Yii::t('ContactModule.contact', 'Provider'),
-			'uid' => Yii::t('ContactModule.contact', 'Uid'),
-			'description' => Yii::t('ContactModule.contact', 'Description'),
+            // 'id'                => Yii::t('CategoryModule.category', 'Id'),
+            /*
+			'id' => Yii::t('ContactModule.contactuser', 'ID'),
+			'user_id' => Yii::t('ContactModule.contactuser', 'User'),
+			'provider_id' => Yii::t('ContactModule.contactuser', 'Provider'),
+			'uid' => Yii::t('ContactModule.contactuser', 'Uid'),
+			'description' => Yii::t('ContactModule.contactuser', 'Description'),
+            */
+
+            'id' => Yii::t('ContactModule.contact', 'ID'),
+            'user_id' => Yii::t('ContactModule.contact', 'User'),
+            'provider_id' => Yii::t('ContactModule.contact', 'Provider'),
+            'uid' => Yii::t('ContactModule.contact', 'Uid'),
+            'description' => Yii::t('ContactModule.contact', 'Description'),
 		);
+
 	}
 
 	/**
