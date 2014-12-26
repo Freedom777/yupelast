@@ -1,0 +1,6 @@
+{
+    "name": "yii-ext/plupload",
+    "description": "plupload wrapper",
+    "homepage": "https://github.com/yii-ext/plupload/",
+    "type": "yii-extension"
+}

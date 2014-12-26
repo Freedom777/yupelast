@@ -82,6 +82,8 @@ class User extends yupe\models\YModel
      */
     public $use_gravatar = false;
 
+    public $files = array();
+
     /**
      * @return string the associated database table name
      */

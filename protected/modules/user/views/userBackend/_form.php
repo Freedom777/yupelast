@@ -6,7 +6,7 @@ $form = $this->beginWidget(
         'enableAjaxValidation'   => false,
         'enableClientValidation' => true,
         'type'                   => 'vertical',
-        'htmlOptions'            => array('class' => 'well'),
+        'htmlOptions'            => array('class' => 'well', 'enctype'=>'multipart/form-data'),
     )
 ); ?>
 
@@ -19,6 +19,38 @@ $form = $this->beginWidget(
 <?php echo $form->errorSummary($model); ?>
 
 <?php
+
+// var_dump(Yii::app()->params['allowedUserFileTypes']);die();
+
+$this->widget('vendor.yiiext.plupload.FileUploaderWidget', array(
+    'id' => 'filelist',
+    'uploadUrl' => array('upload'),
+    'files' => $model->files,
+    'maxFileCount' => 3,
+    'clientOptions' => array(
+        'filters' => array(
+            'mime_types' => array(array(
+                'title' => 'Documents',
+                'extensions' => implode(',', Yii::app()->params['allowedUserFileTypes']),
+            )),
+            'max_file_size' => '2mb',
+            'prevent_duplicates' => true,
+        ),
+        'multipart_params' => array(
+            Yii::app()->request->csrfTokenName => Yii::app()->request->csrfToken,
+        ),
+    ),
+));
+
+/*
+$this->widget('CMultiFileUpload', array(
+    'model'=>$model,
+    'name'=>'image',
+    'attribute'=>'image',
+    'accept'=>'jpg|gif|png',
+));
+*/
+// $this->widget('vendor.yiiext.plupload.Plupload');
 
 $this->widget('vendor.yiiext.multimodelform.MultiModelForm',array(
     'id' => 'id_user', //the unique widget id

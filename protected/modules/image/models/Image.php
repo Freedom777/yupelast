@@ -71,7 +71,7 @@ class Image extends yupe\models\YModel
     {
         return array(
             array('name, description, alt', 'filter', 'filter' => array(new CHtmlPurifier(), 'purify')),
-            array('name , alt, type', 'required'),
+            array('name, alt, type', 'required'),
             array('galleryId', 'numerical'),
             array('name, description, alt', 'filter', 'filter' => 'trim'),
             array('status, parent_id, type, category_id', 'numerical', 'integerOnly' => true),

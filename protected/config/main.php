@@ -167,6 +167,10 @@ return array(
                     'class'  => 'CFileLogRoute',
                     'levels' => 'error, warning, info, trace', // на продакшн лучше оставить error, warning
                 ),
+                array(
+                    'class'=>'CWebLogRoute',
+                    'levels' => 'error, warning', // на продакшн лучше оставить error, warning
+                ),
             ),
         ),
         'errorHandler'  => array( // use 'site/error' action to display errors

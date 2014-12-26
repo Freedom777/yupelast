@@ -35,7 +35,46 @@ class UserBackendController extends yupe\components\controllers\BackController
                 'class'           => 'yupe\components\actions\YInLineEditAction',
                 'model'           => 'User',
                 'validAttributes' => array('access_level', 'status', 'email_confirm')
-            )
+            ),
+            'upload' => array(
+                'class' => 'vendor.yiiext.plupload.actions.UploadAction',
+                'completeCallback' => function ($fileFullName, $fileSelfName) {
+                        $Image = new Image;
+                        $Image->name = $fileSelfName;
+                        $Image->file = $fileFullName;
+                        $Image->alt = $fileFullName;
+                        $Image->user_id = Yii::app()->user->id;
+                        // $Image->type = self::TYPE_SIMPLE;
+
+                        if (!$Image->save()) {
+                            throw new CHttpException(500, CVarDumper::dumpAsString($Image->getErrors()));
+                        }
+
+                        $response = array(
+                            'downloadUrl' => Yii::app()->createUrl('downloadfile', array('id' => $Image->id)),
+                            'deleteUrl' => Yii::app()->createUrl('deletefile', array('id' => $Image->id)),
+                        );
+
+                        return $response;
+
+
+                        $fileModel = new UserFileModel();
+                        $fileModel->userId = Yii::app()->user->id;
+                        $fileModel->name = $fileSelfName;
+                        $fileModel->file = $fileFullName;
+                        if (!$fileModel->save()) {
+                            throw new CHttpException(500, CVarDumper::dumpAsString($fileModel->getErrors()));
+                        }
+                        $response = array(
+                            'downloadUrl' => Yii::app()->createUrl('downloadfile', array('id' => $fileModel->id)),
+                            'deleteUrl' => Yii::app()->createUrl('deletefile', array('id' => $fileModel->id)),
+                        );
+                        return $response;
+                    }
+            ),
+
+            // 'upload' => 'vendor.yiiext.plupload.actions.UploadAction',
+            // 'destroy' => 'vendor.yiiext.plupload.actions.DestroyAction',
         );
     }
 
