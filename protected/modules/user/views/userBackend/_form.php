@@ -24,7 +24,7 @@ $form = $this->beginWidget(
 
 $this->widget('vendor.yiiext.plupload.FileUploaderWidget', array(
     'id' => 'filelist',
-    'uploadUrl' => array('upload'),
+    'uploadUrl' => array('uploadfile'),
     'files' => $model->files,
     'maxFileCount' => 3,
     'clientOptions' => array(

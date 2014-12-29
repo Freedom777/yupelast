@@ -32,6 +32,7 @@ class DeleteAction extends CAction
      */
     public function run($id)
     {
+        die('aaa');
         $userFileModel = $this->loadUserFileModel($id);
         $userFileModel->delete();
         if (!Yii::app()->getRequest()->getIsAjaxRequest()) {

@@ -36,7 +36,7 @@ class UserBackendController extends yupe\components\controllers\BackController
                 'model'           => 'User',
                 'validAttributes' => array('access_level', 'status', 'email_confirm')
             ),
-            'upload' => array(
+            'uploadfile' => array(
                 'class' => 'vendor.yiiext.plupload.actions.UploadAction',
                 'completeCallback' => function ($fileFullName, $fileSelfName) {
                         $Image = new Image;
@@ -51,8 +51,8 @@ class UserBackendController extends yupe\components\controllers\BackController
                         }
 
                         $response = array(
-                            'downloadUrl' => Yii::app()->createUrl('downloadfile', array('id' => $Image->id)),
-                            'deleteUrl' => Yii::app()->createUrl('deletefile', array('id' => $Image->id)),
+                            'downloadUrl' => Yii::app()->createUrl('/backend/user/user/downloadfile', array('id' => $Image->id)),
+                            'deleteUrl' => Yii::app()->createUrl('/backend/user/user/deletefile', array('id' => $Image->id)),
                         );
 
                         return $response;
@@ -72,9 +72,10 @@ class UserBackendController extends yupe\components\controllers\BackController
                         return $response;
                     }
             ),
-
-            // 'upload' => 'vendor.yiiext.plupload.actions.UploadAction',
-            // 'destroy' => 'vendor.yiiext.plupload.actions.DestroyAction',
+            // 'uploadfile' => 'vendor.yiiext.plupload.actions.UploadAction',
+            'deletefile' => array(
+                'class' => 'vendor.yiiext.plupload.actions.DeleteAction',
+            ),
         );
     }
 
